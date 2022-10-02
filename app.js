@@ -26,6 +26,7 @@ cantidadImpresiones = parseInt(
   prompt("Ingrese el numero de copias que desea realizar")
 );
 
+/// Se calcula el total a pagar dependiendo del tipo de papel
 function totalAPagar() {
   ripoPapel = 0;
   for (x = 1; x <= cantidadImpresiones; x++) {
