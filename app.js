@@ -27,7 +27,7 @@ cantidadImpresiones = parseInt(
 );
 
 function totalAPagar() {
-  precio = 0;
+  ripoPapel = 0;
   for (x = 1; x <= cantidadImpresiones; x++) {
     tipoPapel = parseInt(
       prompt(
@@ -50,4 +50,4 @@ function totalAPagar() {
   return total;
 }
 
-totalAPagar();
+alert("El total a pagar es: " + totalAPagar());
